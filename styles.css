@@ -51,7 +51,7 @@ a {
 
 a:hover {
   color: rgb(212, 210, 210);
-  background-color: rgb(212, 210, 210);
+  background-color: black;
   animation-timing-function: cubic-bezier();
 }
 
