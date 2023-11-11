@@ -46,7 +46,7 @@ a {
   text-decoration: none;
   font-family: 'Commissioner', sans-serif;
   color: black;
-  transition: color 1s;
+  transition: color 0.5s;
 }
 
 a:hover {
