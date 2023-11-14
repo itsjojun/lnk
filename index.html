@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,10 +25,14 @@
     <meta name="twitter:image" content="https://raw.githubusercontent.com/itsjojun/lnk/main/jojun-profile-pic-website.jpg">
     <link rel="canonical" href="https://lnk.itsjojun.com">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!--<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap" rel="stylesheet">-->
+    <!-- Google Fonts (local copy) -->
+    <style>
+        @font-face {
+            font-family: 'Commissioner';
+            font-weight: 600;
+            src: local('Commissioner Bold'), local('Commissioner-Bold'), url('path-to-local-font/Commissioner-Bold.woff2') format('woff2');
+        }
+    </style>
 </head>
 
 
@@ -84,9 +89,6 @@
     </a>
     -->
     
-    <!--render-blocking-ressource-->
-    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap" rel="stylesheet">
-
 </body>
 
 <!-- Copyright Text -->
