@@ -1,4 +1,8 @@
 body {
+  min-height: 100vh; /* Mindesthöhe des Body-Elements auf 100% der Bildschirmhöhe setzen */
+  margin: 0; /* Den Seitenrand entfernen, um sicherzustellen, dass der Text bis zum unteren Rand geht */
+  display: flex;
+  flex-direction: column; /* Flexbox verwenden und die Richtung auf Spalte setzen */
   background-color: rgb(212, 210, 210);
   color: black;
   font-family: "Open Sans", sans-serif;
@@ -57,11 +61,10 @@ a:hover {
   animation-timing-function: cubic-bezier();
 }
 
-.copyright-text{
+.copyright-text {
   text-align: center;
-  margin: 0;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin: auto; /* Auto-Margin sorgt dafür, dass der Text in der Mitte zentriert wird */
+  margin-top: auto; /* Auto-Margin sorgt dafür, dass der Text am unteren Rand bleibt */
   padding: 0;
   font-family: 'Commissioner', sans-serif;
   font-size: 14px;
